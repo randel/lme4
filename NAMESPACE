@@ -63,7 +63,6 @@ importMethodsFrom("Matrix", coerce, cov2cor, "%*%", crossprod,tcrossprod,
                   t, diag, chol2inv, solve, colSums,rowSums)
 ## other CRAN packages:
 importFrom("minqa", bobyqa)
-importFrom("nloptr", nloptr)
 
 ## Re-Exports :
 export(negative.binomial)
